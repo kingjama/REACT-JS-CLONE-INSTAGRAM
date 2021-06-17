@@ -6,6 +6,8 @@ import { faHeart, faCircle, faCompass } from '@fortawesome/free-regular-svg-icon
 import "./SearchBar.css";
 
 const SearchBar = (props) => {
+
+  const {search} = props
   return (
     <div className="search-bar-wrapper">
       <div className="social">
